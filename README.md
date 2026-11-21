@@ -27,7 +27,7 @@ TAREFAS.md                         divisão de tarefas da dupla
 ## Como rodar
 
 Clique no botão **Abrir no Colab** acima e use *Ambiente de execução → Executar tudo* (de preferência com GPU T4).
-O notebook baixa o CSV direto deste repositório, então não é preciso fazer upload de nada.
+O notebook está salvo sem saídas (pronto para executar). Ele baixa o CSV direto deste repositório, então não é preciso fazer upload de nada.
 
 Localmente: `pip install pandas numpy matplotlib scikit-learn tensorflow` e abra o notebook a partir da pasta `notebooks/`.
 
