@@ -37,5 +37,6 @@ Resumo (detalhes e checklist em [TAREFAS.md](TAREFAS.md)):
 
 - **Gabriel** — seções 0–7: dataset e gráfico inicial, tratamento de lacunas, divisão cronológica e normalização,
   janelas de 24h e 168h, treino das duas LSTMs, tabela de MAE na validação e escolha da janela. ✅
-- **Davi** — seções 8–10: avaliação no teste contra persistência e referência sazonal, gráficos do teste e conclusão.
+- **Davi** — seções 8–10: avaliação no teste contra persistência e referências sazonais (24h e 168h), gráficos do teste,
+  visualizações complementares (erro por hora/dia, mês a mês, feriados) e conclusão. ✅
 - **Dupla** — revisar a declaração de IA, participar do encontro de acompanhamento e rodar tudo no Colab antes de entregar.

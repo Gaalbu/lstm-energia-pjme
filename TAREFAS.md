@@ -15,18 +15,19 @@ Obrigatório: a dupla precisa participar de **pelo menos um encontro de acompanh
 - [x] Tabela com o MAE das duas janelas na validação (escala original) e janela escolhida
 - [x] Gráficos extras da validação (curvas de perda, zoom real × previsto, MAE por hora/dia)
 
-## Davi — teste, referências e conclusão (seções 8–10)
+## Davi — teste, referências e conclusão (seções 8–10) ✅
 
-- [ ] Previsões da LSTM escolhida no teste (`prever_mw(modelos[janela_escolhida], ...)`)
-- [ ] Referência de **persistência** (último valor observado) nas mesmas datas-alvo
-- [ ] Referência **sazonal** de 24h (mesma hora do dia anterior); opcional: 168h
-- [ ] Tabela com o MAE de cada método no teste (MW)
-- [ ] Gráfico real × LSTM × referências no teste, com o MAE de cada método
-- [ ] Visualizações complementares do teste
-- [ ] Conclusão: a janela longa ajudou na validação? Como a LSTM se saiu contra as referências no teste?
+- [x] Previsões da LSTM escolhida no teste (`prever_mw(modelos[janela_escolhida], ...)`)
+- [x] Referência de **persistência** (último valor observado) nas mesmas datas-alvo
+- [x] Referência **sazonal** de 24h (mesma hora do dia anterior) e também a de 168h
+- [x] Tabela com o MAE de cada método no teste (MW)
+- [x] Gráfico real × LSTM × referências no teste, com o MAE de cada método
+- [x] Visualizações complementares do teste
+- [x] Conclusão: a janela longa ajudou na validação? Como a LSTM se saiu contra as referências no teste?
 
 ## Dupla
 
 - [ ] Revisar a declaração de IA (extensão da contribuição e validação)
 - [ ] Marcar e participar de um encontro de acompanhamento
 - [ ] Rodar tudo no Colab (*Executar tudo*) sem erros antes de entregar no Classroom
+- [ ] Depois de rodar, atualizar os números citados nos textos das seções 8–10 (marcados com ✏️; vêm de uma execução preliminar de 15 épocas em CPU)
